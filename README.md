@@ -43,10 +43,11 @@ Executar comandos para instalação das dependências
 `pip install pyzabbix`  
 `pip install click`
 
-1. Copiar script discovery_hostgroups.py para pasta externalscript do Zabbix.
-2. Importar o template para o Zabbix.
+1. Copiar script discovery_hostgroups.py para pasta externalscript do Zabbix.  
+2. Parametrizar variáveis de conexão a API Zabbix no script.  
+3. Importar o template para o Zabbix.
 4. Aplicar template a um host que irá concentrar as informações de estatistica.
-3. Configurar Filtro da regra de descoberta LLD no Template, filtrando somente os grupos que necessitam dessa informação.
+5. Configurar Filtro da regra de descoberta LLD no Template, filtrando somente os grupos que necessitam dessa informação.
 
 ### Resultado esperado
 
