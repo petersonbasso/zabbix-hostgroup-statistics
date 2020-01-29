@@ -53,7 +53,7 @@ Executar comandos para instalação das dependências
 A monitoria cria 1 application para cada grupo retornado pela regra de descoberta, cada application possui 4 itens:  
 Hosts Total  
 Hosts UP  
-Hosts Down 
+Hosts Down  
 Grupo - disponibilidade
 
 ![Resultado](https://github.com/petersonbasso/zabbix-hostgroup-statistics/blob/master/img/imagem01.png)
