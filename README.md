@@ -44,17 +44,17 @@ Executar comandos para instalação das dependências
 `pip install click`
 
 1. Copiar script discovery_hostgroups.py para pasta externalscript do Zabbix.  
-2. Parametrizar variáveis de conexão a API Zabbix no script.  
+2. Parametrizar variáveis de conexão à API Zabbix no script.  
 3. Importar o template para o Zabbix.
 4. Aplicar template a um host que irá concentrar as informações de estatistica.
-5. Configurar Filtro da regra de descoberta LLD no Template, filtrando somente os grupos que necessitam dessa informação.
+5. Configurar Filtro da regra de descoberta LLD, filtrando somente os grupos que necessitam dessa informação.
 
 ### Resultado esperado
 
 A monitoria cria 1 application para cada grupo retornado pela regra de descoberta, cada application possui 4 itens:  
-Hosts Total  
-Hosts UP  
-Hosts Down  
-Grupo - disponibilidade
+Hosts Total - Quantidade total de hosts no grupo  
+Hosts UP - Quantidade total de hosts UP no grupo  
+Hosts Down - Quantidade total de hosts down no grupo  
+Grupo - disponibilidade - Média das disponibilidades icmpping de todos os Hosts do grupo  
 
 ![Resultado](https://github.com/petersonbasso/zabbix-hostgroup-statistics/blob/master/img/imagem01.png)
