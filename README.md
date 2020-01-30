@@ -57,4 +57,4 @@ Hosts UP - Quantidade total de hosts UP no grupo
 Hosts Down - Quantidade total de hosts down no grupo  
 Grupo - disponibilidade - Média das disponibilidades icmpping de todos os Hosts do grupo  
 
-![Resultado](https://github.com/petersonbasso/zabbix-hostgroup-statistics/blob/master/img/imagem01.png)
+![Resultado](img/imagem01.png)
