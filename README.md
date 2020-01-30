@@ -34,7 +34,7 @@ Monitoria composta por 1 regra de descoberta LLD com 4 protótipos de itens:
 ### Dependências
 
 #### Python libs
-pyzabbix
+pyzabbix  
 click
 
 ### Instalação
@@ -52,20 +52,20 @@ Executar comandos para instalação das dependências
 ### Resultado esperado
 
 A monitoria cria 1 application para cada grupo retornado pela regra de descoberta, cada application possui 4 itens:  
-Hosts Total - Quantidade total de hosts no grupo  
-Hosts UP - Quantidade total de hosts UP no grupo  
-Hosts Down - Quantidade total de hosts down no grupo  
-Grupo - disponibilidade - Média das disponibilidades icmpping de todos os Hosts do grupo  
+**Hosts Total** - Quantidade total de hosts no grupo  
+**Hosts UP** - Quantidade total de hosts UP no grupo  
+**Hosts Down** - Quantidade total de hosts down no grupo  
+**Grupo - disponibilidade** - Média das disponibilidades icmpping de todos os Hosts do grupo  
 
 ![Resultado](img/imagem01.png)
 
 ### Testando o script manualmente
 
 É possível validar o funcionamento do script manualmente utilizando os comandos abaixo.  
-*Processo de discovery*  
+**Processo de discovery**  
 `./discovery_hostgroups.py discovery`  
 Esse comando deverá retornar um json contendo todos os grupos criados no Zabbix.  
 
-*Processo de coleta*  
+**Processo de coleta**  
 `./discovery_hostgroups.py coleta --groupid {#GROUPID}`  
 Esse comando deverá retornar um valor inteiro contento a quantidade total de hosts no id de grupo informado em {#GROUPID}.  
