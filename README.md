@@ -1,6 +1,6 @@
 # Monitoramento Hostgroup Statistics
 
-Monitoria de estatísitcas de hostgroup Zabbix.
+Monitoria de estatísticas de hostgroup Zabbix.
 
 ## Introdução
 
@@ -46,7 +46,7 @@ Executar comandos para instalação das dependências
 1. Copiar script [discovery_hostgroups.py](discovery_hostgroups.py) para pasta externalscript do Zabbix.  
 2. Parametrizar variáveis de conexão à API Zabbix no script.  
 3. Importar o template para o Zabbix.
-4. Aplicar template a um host que irá concentrar as informações de estatistica.
+4. Aplicar template a um host que irá concentrar as informações de estatística.
 5. Configurar Filtro da regra de descoberta LLD, filtrando somente os grupos que necessitam dessa informação.
 
 ### Resultado esperado
